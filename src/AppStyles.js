@@ -1,8 +1,7 @@
 import { StyleSheet} from 'react-native';
 
 
-export const RecipeCard = StyleSheet.create({
- 
+export const Resepmasakan = StyleSheet.create({
   container: {
     flex: 1,
     marginLeft: -10,
@@ -15,7 +14,6 @@ export const RecipeCard = StyleSheet.create({
     marginVertical: 10,
     marginHorizontal: 5,
     padding: 10,
-    backgroundColor: 'white',
     flexDirection: "row",
   },
   indikator: {

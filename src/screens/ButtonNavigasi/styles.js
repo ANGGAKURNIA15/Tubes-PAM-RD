@@ -5,7 +5,8 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: 'rgb(16, 105, 137)'
   },
   container: {
     flex: 1,

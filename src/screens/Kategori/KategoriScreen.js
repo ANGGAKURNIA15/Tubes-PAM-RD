@@ -12,7 +12,7 @@ import { getNumberOfRecipes } from '../../data/MockDataAPI';
 
 export default class CategoriesScreen extends React.Component {
   static navigationOptions = {
-    title: 'Categories'
+    title: 'KATEGORI'
   };
 
   constructor(props) {
@@ -26,11 +26,11 @@ export default class CategoriesScreen extends React.Component {
   };
 
   renderCategory = ({ item }) => (
-    <TouchableHighlight style={styles.categoriesItemIndikator} underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressCategory(item)}>
+    <TouchableHighlight style={styles.categoriesItemIndikator} underlayColor='rgb(16, 105, 137)' onPress={() => this.onPressCategory(item)}>
       <View style={styles.categoriesItemContainer}>
         <Image style={styles.categoriesPhoto} source={{ uri: item.photo_url }} />
         <Text style={styles.categoriesName}>{item.name}</Text>
-        <Text style={styles.categoriesInfo}>{getNumberOfRecipes(item.id)} recipes</Text>
+        <Text style={styles.categoriesInfo}>{getNumberOfRecipes(item.id)} resep</Text>
       </View>
     </TouchableHighlight>
   );

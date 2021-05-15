@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native';
-import { RecipeCard } from '../../AppStyles';
+import { Resepmasakan } from '../../AppStyles';
 
 const styles = StyleSheet.create({
-  indikator: RecipeCard.indikator,
-  container: RecipeCard.container,
-  photo: RecipeCard.photo,
-  title: RecipeCard.title,
-  category: RecipeCard.category,
+  indikator: Resepmasakan.indikator,
+  container: Resepmasakan.container,
+  photo: Resepmasakan.photo,
+  title: Resepmasakan.title,
+  category: Resepmasakan.category,
   daftarmakanan:{
     marginTop: 30,
     marginLeft: 30,

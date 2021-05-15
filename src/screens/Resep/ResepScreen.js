@@ -20,12 +20,14 @@ const { width: viewportWidth } = Dimensions.get('window');
 export default class RecipeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
+      title: 'RESEP',
       headerTransparent: 'True',
       headerLeft: () => <BackButton
         onPress={() => {
           navigation.goBack();
         }}
       />
+      
     };
   };
 
@@ -114,11 +116,3 @@ export default class RecipeScreen extends React.Component {
     );
   }
 }
-
-/*cooking steps
-<View style={styles.infoContainer}>
-  <Image style={styles.infoPhoto} source={require('../../../assets/icons/info.png')} />
-  <Text style={styles.infoRecipe}>Cooking Steps</Text>
-</View>
-<Text style={styles.infoDescriptionRecipe}>{item.description}</Text>
-*/

@@ -12,7 +12,7 @@ import { getRecipes, getCategoryName } from '../../data/MockDataAPI';
 export default class RecipesListScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      title: navigation.getParam('title')
+      title: 'List Resep'
     };
   };
 
@@ -25,7 +25,7 @@ export default class RecipesListScreen extends React.Component {
   };
 
   renderRecipes = ({ item }) => (
-    <TouchableHighlight style={styles.indikator} underlayColor='rgba(73,182,77,0.9)' onPress={() => this.onPressRecipe(item)}>
+    <TouchableHighlight style={styles.indikator} underlayColor='rgb(16, 105, 137)' onPress={() => this.onPressRecipe(item)}>
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item.photo_url }} />
         <Text style={styles.title}>{item.title}</Text>

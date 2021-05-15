@@ -6,7 +6,7 @@ import styles from './styles';
 export default class BackButton extends React.Component {
   render() {
     return (
-      <TouchableHighlight underlayColor='rgba(73,182,77,0.9)' onPress={this.props.onPress} style={styles.btnContainer}>
+      <TouchableHighlight underlayColor='rgb(16, 105, 137)' onPress={this.props.onPress} style={styles.btnContainer}>
         <Image source={require('../../../assets/icons/backArrow.png')} style={styles.btnIcon} />
       </TouchableHighlight>
     );

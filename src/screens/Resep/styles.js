@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
   carousel: {},
 
   image: {
-    ...StyleSheet.absoluteFillObject,
     width: '100%',
     height: 250
   },
@@ -64,7 +63,7 @@ const styles = StyleSheet.create({
     color: 'red',
     fontWeight: 'bold',
     marginTop: -55,
-    marginLeft: 0,
+    marginLeft: -110,
   },
   category: {
     fontSize: 14,

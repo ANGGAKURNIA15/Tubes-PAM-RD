@@ -32,8 +32,8 @@ export const recipes = [
     photo_url: 'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113624-1000xauto-resep-masakan-padang-asli.jpg',
     photosArray: [
       'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113624-1000xauto-resep-masakan-padang-asli.jpg',
-      'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113626-1000xauto-resep-masakan-padang-asli.jpg',
-      'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113629-1000xauto-resep-masakan-padang-asli.jpg',
+      'https://cdn-2.tstatic.net/tribunnews/foto/bank/images/resep-rendang.jpg',
+      'https://cdns.klimg.com/merdeka.com/i/w/news/2021/05/04/1304153/640x320/5-resep-bumbu-rendang-yang-lezat-dan-menggugah-selera.jpg',
     ],
     time: '320',
     description:
@@ -58,8 +58,7 @@ export const recipes = [
     photo_url: 'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113629-1000xauto-resep-masakan-padang-asli.jpg',
     photosArray: [
       'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113629-1000xauto-resep-masakan-padang-asli.jpg',
-      'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113626-1000xauto-resep-masakan-padang-asli.jpg',
-      'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113624-1000xauto-resep-masakan-padang-asli.jpg',
+     
       
     ],
     time: '30',
@@ -74,9 +73,6 @@ export const recipes = [
       'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113626-1000xauto-resep-masakan-padang-asli.jpg',
     photosArray: [
       'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113626-1000xauto-resep-masakan-padang-asli.jpg',
-      'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113624-1000xauto-resep-masakan-padang-asli.jpg',
-      'https://cdn-brilio-net.akamaized.net/news/2019/10/18/172502/1113629-1000xauto-resep-masakan-padang-asli.jpg',
-      
     ],
     time: '60',
     description:
@@ -90,7 +86,6 @@ export const recipes = [
       'https://cdn-brilio-net.akamaized.net/news/2020/03/24/181044/1195938-1000xauto-resep-makanan-bali.jpg',
     photosArray: [
       'https://cdn-brilio-net.akamaized.net/news/2020/03/24/181044/1195938-1000xauto-resep-makanan-bali.jpg',
-      'https://cdn-brilio-net.akamaized.net/news/2020/03/24/181044/1195943-1000xauto-resep-makanan-bali.jpg',
     ],
     time: '30',
     description: 'Bahan-bahan:\n - 300 gram bulung buni atau rumput laut segar\n - 1 sendok sayur kuah pindang\n - Air untuk merebus\n - Air es untuk merendam\n\n Bumbu kelapa :\n - 1/4 butir kelapa yang dibakar (parut)\n - 1 cm lengkuas (parut)\n\n Campur kedua bahan lalu tambahkan kuah pindang.\n\n  Bumbu rujak bulung:\n - 2 buah cabe merah atau sesuai selera\n - Terasi bakar secukupnya\n - Garam sesuai selera\n - Gula pasir secukupnya\n - Ulek seluruh bahan hingga halus.\n\n Cara menyajikan rujak bulung :\n - Didihkan air, masukkan bulung buni sebentar saja.\n - Angkat dan langsung masukkan pada air es. Tiriskan.\n - Tata rujak bulung ini diatas piring.\n - Campur bumbu kelapa dan bumbu rujak, taruh diatas bulung buni.\n - Beri perasan jeruk limau.\n - Rujak bulung siap disajikan.'
@@ -163,7 +158,7 @@ export const recipes = [
   {
     recipeId: 8,
     categoryId: 2,
-    title: 'Pindang patin Lampung',
+    title: 'Pindang Patin',
     photo_url: 'https://cdn-brilio-net.akamaized.net/news/2019/10/29/173033/1118633-1000xauto-makanan-khas-lampung.jpg',
     photosArray: [
       'https://cdn-brilio-net.akamaized.net/news/2019/10/29/173033/1118633-1000xauto-makanan-khas-lampung.jpg',
